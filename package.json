@@ -4,16 +4,18 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite --config vite.config.js build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@honeybadger-io/vue": "^3.0.1",
-    "vue": "^3.2.25"
+    "vue": "^3.2.31",
+    "pinia": "^2.0.11",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.3",
-    "vite": "^2.9.9"
+    "@vitejs/plugin-vue": "^2.2.2",
+    "vite": "^2.8.6"
   },
   "type": "module"
 }
